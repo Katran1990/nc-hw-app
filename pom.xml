@@ -18,8 +18,6 @@
         <spring.jdbc>4.3.7.RELEASE</spring.jdbc>
         <spring.tx>4.3.7.RELEASE</spring.tx>
         <oracle>11.2.0.4.0-atlassian-hosted</oracle>
-        <javax.servlet>2.5</javax.servlet>
-        <javax.servlet.jsp>2.3.1</javax.servlet.jsp>
         <jstl>1.2</jstl>
     </properties>
 
@@ -43,16 +41,6 @@
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
             <version>${oracle}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>${javax.servlet}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>javax.servlet.jsp-api</artifactId>
-            <version>${javax.servlet.jsp}</version>
         </dependency>
         <dependency>
             <groupId>jstl</groupId>

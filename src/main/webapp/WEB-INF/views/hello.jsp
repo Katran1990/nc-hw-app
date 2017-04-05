@@ -8,9 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NetCracker Hello World</title>
-    <p><c:out value="${note.title}"/></p>
 </head>
 <body>
-
+<p><c:out value="${note.title}"/></p>
 </body>
 </html>

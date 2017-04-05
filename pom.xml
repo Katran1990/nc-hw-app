@@ -57,7 +57,7 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <version>${maven.war.plugin}</version>
                     <configuration>
-                        <outputDirectory>../../../../Program Files/Java/tomcat/webapps</outputDirectory>
+                        <outputDirectory>${env.CATALINA_HOME}/webapps</outputDirectory>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                     </configuration>
                 </plugin>

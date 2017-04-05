@@ -1,2 +1,2 @@
 # nc-hw-app
-webapp for NC
+hello world webapp for NC
